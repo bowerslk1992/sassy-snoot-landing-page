@@ -1,5 +1,6 @@
 *{
     font-family: "Roboto", Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
 
 ul{
@@ -11,12 +12,17 @@ a{
     color: white;
 }
 
+.intro-image{
+    border-radius: 50%;
+}
+
 .header{
     background-color: #3D8D7A;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
 }
 
 .logo{
@@ -42,5 +48,45 @@ a:hover{
     justify-content: center;
     background-color: #3D8D7A;
     color: white;
+    padding: 20px;
 
 }
+
+.intro{
+   background-color: #B3D8A8;
+   padding: 20px;
+   display: flex;
+   justify-content: space-between;
+} 
+
+.body{
+   background-color: #FBFFE4; 
+   padding: 20px;
+}
+
+.testimonial{
+    background-color:#B3D8A8;
+    padding: 20px;
+}
+
+.action{
+    background-color: #FBFFE4;
+    padding: 20px;
+}
+
+.intro-text{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    justify-content: center;
+    padding-left: 200px;
+}
+
+.intro-pic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 200px;
+
+}
+
