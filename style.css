@@ -12,10 +12,6 @@ a{
     color: white;
 }
 
-.intro-image{
-    border-radius: 50%;
-}
-
 .header{
     background-color: #3D8D7A;
     color: white;
@@ -59,19 +55,8 @@ a:hover{
    justify-content: space-between;
 } 
 
-.body{
-   background-color: #FBFFE4; 
-   padding: 20px;
-}
-
-.testimonial{
-    background-color:#B3D8A8;
-    padding: 20px;
-}
-
-.action{
-    background-color: #FBFFE4;
-    padding: 20px;
+.intro-image{
+    border-radius: 50%;
 }
 
 .intro-text{
@@ -80,6 +65,7 @@ a:hover{
     width: 400px;
     justify-content: center;
     padding-left: 200px;
+    gap: 20px;
 }
 
 .intro-pic{
@@ -89,4 +75,106 @@ a:hover{
     padding-right: 200px;
 
 }
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 14px;
+    background: #3d8d7a;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    width: 150px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    background: #5bc7ac;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.body{
+   background-color: #FBFFE4; 
+   padding: 20px;
+}
+
+.testimonial{
+    background-color:#B3D8A8;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+    flex-direction: column;
+    
+}
+
+ .quote{
+    font-style: italic;
+    color: white;
+    font-size: 20px;
+    width: 400px;
+    line-height: 2;
+ }
+
+ .kyle{
+    font-weight: bold;
+    color: white;
+    size: 16px;
+    margin-left: 200px;
+ }
+
+.action{
+    background-color: #FBFFE4;
+    padding: 20px;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+}
+
+.action-content{
+    background-color: #B3D8A8;
+    display: flex;
+    gap: 12px;
+    width: 1000px;
+    padding: 20px;
+    justify-content: space-around;
+    border-radius: 30px;
+    border-style: dotted;
+    border-color: #3D8D7A;
+}
+
+.action-text{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.sign-up {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 14px;
+    background: #3d8d7a;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    width: 100px;
+    font-weight: bold;
+    text-align: center;
+    border-width: 0;
+
+  }
+  
+  .sign-up:hover {
+    background: #5bc7ac;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
 
