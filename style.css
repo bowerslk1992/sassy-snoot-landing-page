@@ -1,0 +1,46 @@
+*{
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.header{
+    background-color: #3D8D7A;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    margin-left: 50px;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.links{
+    display: flex;
+    gap: 8px;
+    margin-right: 50px;
+}
+
+a:hover{
+    font-style: italic;
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #3D8D7A;
+    color: white;
+
+}
