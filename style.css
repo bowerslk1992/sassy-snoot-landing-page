@@ -22,7 +22,6 @@ a{
 }
 
 .logo{
-    display: flex;
     margin-left: 50px;
     font-size: 28px;
     font-weight: 900;
@@ -56,7 +55,7 @@ a:hover{
 } 
 
 .intro-image{
-    border-radius: 50%;
+    border-radius: 25px;
 }
 
 .intro-text{
@@ -69,9 +68,6 @@ a:hover{
 }
 
 .intro-pic{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     padding-right: 200px;
 
 }
@@ -99,7 +95,30 @@ a:hover{
 
 .body{
    background-color: #FBFFE4; 
-   padding: 20px;
+   padding: 70px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.text{
+    max-width: 200px;
+    text-align: center;
+}
+
+.info-pic{
+    border-radius: 25px;
+    border-color: #3D8D7A;
+    border-style:solid;
 }
 
 .testimonial{
@@ -109,8 +128,12 @@ a:hover{
     justify-content: center;
     align-items: center;
     padding: 70px;
-    flex-direction: column;
     
+}
+
+.test-content{
+    display: flex;
+    flex-direction: column;
 }
 
  .quote{
@@ -128,6 +151,18 @@ a:hover{
     margin-left: 200px;
  }
 
+ .test-pic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+
+}
+
+.test-image{
+    border-radius: 25px;
+}
+
 .action{
     background-color: #FBFFE4;
     padding: 20px;
@@ -140,9 +175,9 @@ a:hover{
     background-color: #B3D8A8;
     display: flex;
     gap: 12px;
-    width: 1000px;
+    width: 800px;
     padding: 20px;
-    justify-content: space-around;
+    justify-content: space-between;
     border-radius: 30px;
     border-style: dotted;
     border-color: #3D8D7A;
